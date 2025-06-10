@@ -12,7 +12,7 @@
   flex-direction: column;
   height: 100vh;
   min-height: 720px;
-  max-height: 850px;
+  max-height: 800px;
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
@@ -50,6 +50,7 @@
 
 .header__content {
   display: flex;
+  justify-content: space-between;
 }
 
 .header__title {
@@ -57,18 +58,19 @@
   line-height: 76px;
   max-width: 635px;
   font-weight: 500;
-  padding-top: 128px;
+  margin-top: 128px;
 }
 
 .header__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 32px;
+  margin: 32 0 50px;
 }
 
 .header__image {
   max-width: 636px;
+  margin: 0;
 }
 
 .header__footer {
@@ -120,7 +122,8 @@
 .staff__cards {
   max-width: 760px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  padding-left: 0;
   margin: auto;
   margin-bottom: 0;
   flex-wrap: wrap;
