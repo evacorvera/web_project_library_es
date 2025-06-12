@@ -50,14 +50,15 @@
 
 .header__content {
   display: flex;
+  justify-content: space-between;
 }
 
 .header__title {
+  max-width: 635px;
   font-size: 62px;
   line-height: 76px;
-  max-width: 635px;
   font-weight: 500;
-  padding-top: 128px;
+  margin-top: 128px;
 }
 
 .header__description {
@@ -118,14 +119,13 @@
 
 .staff__cards {
   max-width: 760px;
+  margin: 68px auto 0;
   display: flex;
-  justify-content: space-around;
-  margin: auto;
-  margin-bottom: 0;
   flex-wrap: wrap;
-  gap: 40px;
-  margin-top: 68px;
+  justify-content: center;
+  gap: 40px 40px;
   list-style-type: none;
+  padding-left: 0;
 }
 
 .card {
